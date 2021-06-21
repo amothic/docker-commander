@@ -10,6 +10,6 @@ $ docker-commander /app --param "abc"
 ```
 
 ```
-$ docker run --rm -it ghcr.io/amothic/docker-commander:latest /app --param "abc"
+$ docker run --rm ghcr.io/amothic/docker-commander:latest /app --param "abc"
 ["/app","--param","abc"]
 ```
